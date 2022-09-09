@@ -1,0 +1,73 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .logo a img{
+    width: 80px;
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.enlaces ul li a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.iconos i:hover,
+.iconos svg:hover{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+}
+/* estilos principal */
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -402px;
+    display: flex;
+    justify-content: center;
+}
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: red;
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: gray;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
