@@ -1,3 +1,6 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Londrina Solid', cursive;
+}
 .menu{
     width: 100%;
     height: 100px;
@@ -68,6 +71,83 @@
     background-color: red;
     color: white;
     padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Sesion Descuentos*/
+.Descuentos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Descuentos .Imagenes-Des Img{
+    width: 300px;
+    height: 300px;
+}
+.Imagenes-Des{
+    width: 80%;
+    display: flex;
+    justify-content: center  ;
+}
+.Titulo h2,
+.productos .titulo-pro{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+/* sesion productos */
+.productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con-productos{
+    width: 100%;
+    height: auto;
+}
+.con-productos .tarjeta-pro{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.tarjeta-pro img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido h3{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tarjeta-pro .contenido p{
+    font-size: 20px;
+}
+.tarjeta-pro .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: gray;
+}
+.tarjeta-pro .botones a{
+    background-color: red;
+    color: white;
+    padding: 7px 12px;
     border-radius: 10px;
     text-decoration: none;
 }
