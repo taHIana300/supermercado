@@ -106,12 +106,15 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
 }
 .con-productos{
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
     height: auto;
+    justify-content: space-evenly;
 }
 .con-productos .tarjeta-pro{
     width: 400px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid black;
 }
