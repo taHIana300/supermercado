@@ -1,0 +1,211 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Londrina Solid', cursive;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .logo a img{
+    width: 80px;
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.enlaces ul li a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.iconos i:hover,
+.iconos svg:hover{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+}
+/* estilos principal */
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -402px;
+    display: flex;
+    justify-content: center;
+}
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: red;
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: gray;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Sesion Descuentos*/
+.Descuentos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Descuentos .Imagenes-Des Img{
+    width: 300px;
+    height: 300px;
+}
+.Imagenes-Des{
+    width: 80%;
+    display: flex;
+    justify-content: center  ;
+}
+.Titulo h2,
+.productos .titulo-pro,
+.servicios .titulo-ser{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+/* sesion productos */
+.productos,
+.servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con-productos,
+.con-servicios{    
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    justify-content: space-evenly;
+}
+.con-productos .tarjeta-pro{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.tarjeta-pro img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido h3{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tarjeta-pro .contenido p{
+    font-size: 20px;
+}
+.tarjeta-pro .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: gray;
+}
+.tarjeta-pro .botones a{
+    background-color: red;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/* servicio */
+.con-servicios{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+}
+.servicios .servicio1,
+.servicios .servicio2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.servicio1 img,
+.servicio2 img,
+.servicio1 .con-texto, 
+.servicio2 .con-texto{
+    width: 40%;
+    height: auto;
+}
+.servicio1 .con-texto h3,
+.servicio2 .con-texto h3{
+  font-size: 45px;
+  color: red;
+  font-weight: bold;
+}
+.servicio1 .con-texto p,
+.servicio2 .con-texto p{
+  font-size: 20px;
+  color:black;
+  font-weight: bold;
+}
+.servicio1 .con-texto a,
+.servicio2 .con-texto a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.servicio1 .con-texto a:hover,
+.servicio2 .con-texto a:hover{
+    font-size: 20px;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+   
+    
+}
